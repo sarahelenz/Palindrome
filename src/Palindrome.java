@@ -26,7 +26,7 @@ public class Palindrome {
         String done = new String();
         for(int x = 0; x <= original.length() - 1; x++){
             String currentLetter = original.substring(x, x + 1);
-            if(currentLetter.equals(" ") || currentLetter.equals(",") || currentLetter.equals("!") || currentLetter.equals(".") || currentLetter.equals(",") || currentLetter.equals("\"") || currentLetter.equals("/") || currentLetter.equals("\\") || currentLetter.equals("@") || currentLetter.equals("(") || currentLetter.equals(")") || currentLetter.equals("*")|| currentLetter.equals("'")|| currentLetter.equals("|")){
+            if(currentLetter.equals(" ") || currentLetter.equals(",") || currentLetter.equals("!") || currentLetter.equals(".") || currentLetter.equals(",") || currentLetter.equals("\"") || currentLetter.equals("/") || currentLetter.equals("\\") || currentLetter.equals("@") || currentLetter.equals("(") || currentLetter.equals(")") || currentLetter.equals("*")|| currentLetter.equals("'")|| currentLetter.equals("|")|| currentLetter.equals("?")){
                 currentLetter = "";
             }
             done += currentLetter;
